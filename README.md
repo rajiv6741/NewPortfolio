@@ -35,6 +35,8 @@ Include EmailJS Script:
 
 Add the EmailJS script to your Index.html:
 
+
+
 <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
 <script type="text/javascript">
     (function(){
@@ -74,6 +76,7 @@ Hosting on GitHub Pages
    cd portfolio
 
 2. Push the changes to GitHub:
+
 
 
 git add .
