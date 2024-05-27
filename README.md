@@ -14,6 +14,7 @@ Enable GitHub Pages:
 
 Go to the repository's settings.
 Under the "Pages" section, set the source to main branch or gh-pages branch, and root directory.
+
 2. Configure Custom Domain
 DNS Settings:
 
@@ -22,6 +23,8 @@ Optionally, add A records pointing to GitHub's IP addresses for better compatibi
 Add CNAME File:
 
 In your repository, create a file named CNAME and add your custom domain (e.g., www.ratnarajivmulpuri.info).
+
+
 3. EmailJS Integration
 EmailJS Setup:
 
@@ -61,14 +64,14 @@ document.getElementById('contact-form').addEventListener('submit', function(even
 
 ## Setup and Deployment
 
-### Hosting on GitHub Pages
+Hosting on GitHub Pages
 
-1. **Clone the repository:**
+1. lone the repository:**
    ```bash
    git clone https://github.com/yourusername/portfolio.git
    cd portfolio
 
-Push the changes to GitHub:
+2. Push the changes to GitHub:
 
 
 git add .
@@ -77,7 +80,7 @@ git push origin main
 
 
 
-Enable GitHub Pages in the repository settings.
+3. Enable GitHub Pages in the repository settings.
 
 Custom Domain Configuration
 DNS Settings:
