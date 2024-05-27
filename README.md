@@ -66,7 +66,9 @@ document.getElementById('contact-form').addEventListener('submit', function(even
 
 Hosting on GitHub Pages
 
-1. lone the repository:**
+1. clone the repository:
+
+   
    ```bash
    git clone https://github.com/yourusername/portfolio.git
    cd portfolio
