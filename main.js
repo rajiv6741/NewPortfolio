@@ -46,7 +46,7 @@ if (typeof ScrollReveal !== 'undefined') {
 /*--------typed JS------*/
 if (typeof Typed !== 'undefined') {
     new Typed('.multiple-text', {
-        strings: ['Aspiring Software Developer', 'Web Developer', 'Frontend Developer'],
+        strings: ['Data Engineer','Software Developer', 'Web Developer', 'Frontend Developer'],
         typeSpeed: 70,
         backSpeed: 70,
         backDelay: 1000,
