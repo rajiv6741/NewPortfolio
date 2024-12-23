@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles.css">
-    <script src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
-    <script>
-        (function() {
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
             emailjs.init("x7K0Q08mVYFVB9sBm");
         })();
     </script>
@@ -16,7 +16,7 @@
 <body class="dark-mode">
     <header class="header">
         <a href="#" class="logo">RRM</a>
-        <i id="menu-icon" class="fa-solid fa-bars"></i>
+        <i id="menu-icon" class="fa-solid fa-bars" style="color: #e8eaed;"></i>
         <nav class="navbar">
             <button id="toggle-mode" class="btn"><i class="fa-solid fa-circle-half-stroke"></i></button>
             <a href="#home" class="active">Home</a>
@@ -28,112 +28,176 @@
         </nav>
     </header>
 
-    <main>
-        <section class="home" id="home">
-            <div class="home-content">
-                <h3>Hello, I'm</h3>
-                <h1>Ratna Rajiv Mulpuri</h1>
-                <h3>I'm a <span class="multiple-text"></span></h3>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I'm</h3>
+            <h1>Ratna Rajiv Mulpuri</h1>
+            <h3>I'm a <span class="multiple-text"></span></h3>
+            <p>
+            I am Ratna Rajiv Mulpuri, a skilled software developer and data engineer with a Master’s in Computer Science from the University of Central Florida and a Bachelor’s in Information Technology from Vellore Institute of Technology. With hands-on experience as a Software Developer Intern at VOXAI and a Data Engineering Intern at Nextpoint, I have developed expertise in monitoring critical applications, resolving incidents, optimizing systems, and building scalable data pipelines. At Nextpoint, I contributed to developing and optimizing ETL pipelines using AWS, Databricks, and Python, ensuring efficient data integration and management for big data solutions. I also performed debugging, data sanity checks, and troubleshooting to resolve issues with job processing and data quality. Proficient in Java, R, HTML, CSS3, JavaScript, Spark, and tools like Eclipse, Git, ServiceNow, and Databricks, I have successfully led projects involving AWS cloud solutions, database management, and business intelligence. I hold the AWS Certified Solutions Architect – Associate certification, showcasing my expertise in designing and implementing cloud-based architectures. Whether building robust software systems or crafting data-driven solutions, I am passionate about leveraging technology to solve complex challenges.
+
+            </p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/rrmulpuri/"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+            </div>
+            <a href="Ratna Rajiv Mulpuri new.pdf" class="btn">Download Resume</a>
+        </div>
+        <div class="home-img">
+            <img src="Profile.png" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="image.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">ABOUT <span>ME</span></h2>
+            <h3>Software Developer</h3>
+            <p>
+               I am Ratna Rajiv Mulpuri, a dedicated and skilled software developer and data engineer with a Master’s degree in Computer Science from the University of Central Florida and a Bachelor’s degree in Information Technology from Vellore Institute of Technology. With a solid academic foundation and hands-on experience as a Software Developer Intern at VOXAI and a Data Engineering Intern at Nextpoint, I have honed my ability to monitor and optimize critical applications, resolve incidents, and improve system performance.
+
+During my time at
+            </p>
+            <div id="more-about" class="more-content">
                 <p>
-                    I am Ratna Rajiv Mulpuri, a skilled software developer and data engineer with a Master’s in Computer Science from the University of Central Florida and a Bachelor’s in Information Technology from Vellore Institute of Technology. With hands-on experience as a Software Developer Intern at VOXAI and a Data Engineering Intern at Nextpoint, I have expertise in monitoring critical applications, resolving incidents, optimizing systems, and building scalable data pipelines. Proficient in Java, R, HTML, CSS3, JavaScript, Spark, and tools like Eclipse, Git, ServiceNow, and Databricks, I hold the AWS Certified Solutions Architect – Associate certification.
+                    I have been part of several projects that have allowed me to apply my knowledge in real-world scenarios. These include developing an online interface for real-time Q&A communication between students and faculty, creating a high-performance AWS-based educational platform, and designing a Java-based prototype for hardware firewall analysis. Each project has strengthened my ability to work collaboratively, think critically, and deliver high-quality solutions.
                 </p>
-                <div class="social-media">
-                    <a href="https://www.linkedin.com/in/rrmulpuri/" target="_blank"><i class="fa-brands fa-linkedin fa-lg"></i></a>
-                </div>
-                <a href="Ratna Rajiv Mulpuri new.pdf" class="btn" download>Download Resume</a>
             </div>
-            <div class="home-img">
-                <img src="Profile.png" alt="Profile Image">
-            </div>
-        </section>
+            <a href="#more-about" class="btn read-more-btn">Read more</a>
+        </div>
+    </section>
 
-        <section class="about" id="about">
-            <div class="about-img">
-                <img src="image.png" alt="About Me Image">
-            </div>
-            <div class="about-content">
-                <h2 class="heading">ABOUT <span>ME</span></h2>
-                <h3>Software Developer</h3>
-                <p>
-                    I am a dedicated and skilled software developer and data engineer with strong technical expertise and a passion for solving complex challenges. My professional experiences at VOXAI and Nextpoint have allowed me to build scalable, efficient solutions.
-                </p>
-                <p id="more-about">
-                    I have contributed to impactful projects, including creating real-time student-faculty interfaces, educational platforms, and low-level firewall design prototypes. These opportunities have strengthened my problem-solving and collaborative abilities.
-                </p>
-                <a href="#more-about" class="btn">Read More</a>
-            </div>
-        </section>
+    <section class="projects" id="projects">
+        <h2 class="heading">My <span>Projects</span></h2>
 
-        <section class="projects" id="projects">
-            <h2 class="heading">My <span>Projects</span></h2>
-            <div class="projects-container">
-                <!-- Project 1 -->
-                <div class="projects-box">
-                    <i class="fa-solid fa-code"></i>
-                    <h3>Student-Faculty Interface</h3>
-                    <p>Developed a real-time communication platform for students and faculty using MySQL, PHP, Java, and JavaScript.</p>
+        <div class="projects-container">
+            <div class="projects-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>University of Central Florida Student-Faculty Interface</h3>
+                <p>Developed an online interface for real-time Q&A communication between students and faculty, using MySQL, PHP, Java, and JavaScript.</p>
+                <div id="more-project1" class="more-content">
+                    <p>
+                        The interface allows students to post questions and receive answers from faculty members in real-time. It features a user-friendly interface and robust backend to manage user data securely. The project involved full-stack development and integration of various technologies to ensure seamless functionality.
+                    </p>
                 </div>
-                <!-- Project 2 -->
-                <div class="projects-box">
-                    <i class="fa-solid fa-cloud"></i>
-                    <h3>Edu Cloud Hub</h3>
-                    <p>Created an AWS-based educational platform with auto-scaling features to enhance user experience.</p>
-                </div>
-                <!-- Project 3 -->
-                <div class="projects-box">
-                    <i class="fa-regular fa-file-code"></i>
-                    <h3>Firewall Design Analyzer</h3>
-                    <p>Designed a prototype for hardware firewall analysis using Java and the Composite design pattern.</p>
-                </div>
+                <a href="#more-project1" class="btn read-more-btn">Read more</a>
             </div>
-        </section>
+            <div class="projects-box">
+                <i class="fa-solid fa-cloud"></i>
+                <h3>Edu Cloud Hub Cloud Native Application</h3>
+                <p>Led the creation of an AWS-based educational platform with auto-scaling capabilities to optimize resource use and enhance user experience.</p>
+                <div id="more-project2" class="more-content">
+                    <p>
+                        The platform provides easy access to educational materials, supports auto-scaling to handle varying loads, and leverages AWS services like EC2, S3, and Auto-Scaling. This project required a deep understanding of cloud architecture and the ability to implement scalable solutions.
+                    </p>
+                </div>
+                <a href="#more-project2" class="btn read-more-btn">Read more</a>
+            </div>
+            <div class="projects-box">
+                <i class="fa-regular fa-file-code"></i>
+                <h3>Low-Level Design for Firewall Design Analyzer in Java</h3>
+                <p>Designed and implemented a Java-based prototype for hardware firewall analysis, focusing on IP packet filtering efficiency using the Composite design pattern.</p>
+                <div id="more-project3" class="more-content">
+                    <p>
+                        This project involved developing a flexible and extensible platform to test and evaluate firewall rules and their effectiveness in filtering IP packets. It showcased my ability to apply design patterns and principles to create robust software solutions.
+                    </p>
+                </div>
+                <a href="#more-project3" class="btn read-more-btn">Read more</a>
+            </div>
+        </div>
+    </section>
 
-        <section class="experience" id="experience">
-            <h2 class="heading"> </h2>
-            <!-- Nextpoint -->
+    <section class="experience" id="experience">
+        <div class="experience-content">
+            <h2 class="heading">My <span>Experience</span></h2>
+
             <h3>Data Engineering Intern</h3>
-            <ul>
-                <li>Developed ETL pipelines using Databricks and AWS, improving data processing efficiency by 25%.</li>
-                <li>Ensured data quality by writing SQL queries and Python scripts for validation.</li>
-            </ul>
-            <!-- VOXAI -->
-            <h3>Managed Services Intern</h3>
-            <ul>
-                <li>Monitored and optimized applications, achieving 99.9% uptime for high-profile clients.</li>
-                <li>Resolved over 150 monthly incidents, reducing resolution time by 40%.</li>
-            </ul>
-        </section>
+<p>
+    During my internship at Nextpoint, I gained extensive experience in building and optimizing data engineering solutions, contributing to the development of scalable ETL pipelines and ensuring data quality and system performance. My key responsibilities included:
+</p>
+<ul>
+    <li><strong>ETL Pipeline Development:</strong> Designed and optimized data pipelines using Databricks and AWS services to support large-scale data integration and analysis, reducing data processing time by 25%.</li>
+    <li><strong>Data Quality and Sanity Checks:</strong> Wrote SQL queries and Python scripts to validate and ensure the accuracy of data across multiple layers, identifying and resolving inconsistencies in datasets.</li>
+    <li><strong>Performance Debugging:</strong> Investigated and resolved issues causing null values in job outputs and optimized job runtimes, improving overall data pipeline efficiency.</li>
+    <li><strong>Cloud-Based Solutions:</strong> Utilized AWS services, including S3 and Lambda, to automate data extraction, transformation, and storage, enhancing system scalability and reliability.</li>
+    <li><strong>Collaboration and Documentation:</strong> Worked closely with cross-functional teams to identify bottlenecks, document ETL processes, and ensure alignment with organizational data strategies.</li>
+</ul>
+<p>
+    This role allowed me to strengthen my skills in data engineering, cloud computing, and debugging, while contributing to innovative and reliable solutions in a dynamic environment.
+</p>
 
-        <section class="education" id="education">
+            
+            <h3>Managed Services Intern</h3>
+            <p>
+                During my internship at VOXAI, I gained hands-on experience in monitoring and optimizing critical applications responsible for handling mobile/phone services for high-profile clients, including American Airlines. My key responsibilities included:
+            </p>
+            <ul>
+                <li><strong>Application Monitoring and Uptime:</strong> Ensured seamless fulfillment of customer requests, achieving a 99.9% uptime and significantly enhancing customer satisfaction.</li>
+                <li><strong>Incident Management:</strong> Managed and resolved over 150 monthly incidents using ServiceNow, including critical outages and performance issues, resulting in a 40% reduction in average resolution time.</li>
+                <li><strong>Data Analysis and Optimization:</strong> Utilized Oracle DB to track and analyze data on failed callbacks for key clients. Identified underlying patterns and implemented strategic solutions, reducing failed callbacks by over 50%.</li>
+                <li><strong>Server Management and Log Analysis:</strong> Managed secure server access via PuTTY across 12+ servers, conducted comprehensive log analysis to troubleshoot and optimize Genesys-based contact center operations, improving system performance and reliability.</li>
+            </ul>
+            <p>
+                This role honed my skills in incident management, data analysis, and system optimization, and demonstrated my ability to deliver reliable and efficient technical solutions in a fast-paced environment.
+            </p>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <div class="education-content">
             <h2 class="heading">My <span>Education</span></h2>
             <div class="education-item">
-                <h3>Master of Science in Computer Science</h3>
-                <h4>University of Central Florida (2022-2024)</h4>
+                <div class="education-text">
+                    <h3>Master of Science in Computer Science</h3>
+                    <h4>University of Central Florida</h4>
+                    <p>August 2022 - May 2024</p>
+                </div>
+                <div class="education-logo">
+                    <img src="ucf.png">
+                </div>
             </div>
             <div class="education-item">
-                <h3>Bachelor of Technology in Information Technology</h3>
-                <h4>Vellore Institute of Technology (2018-2022)</h4>
-            </div>
-        </section>
-
-        <section class="contact" id="contact">
-            <h2 class="heading">Contact <span>Me</span></h2>
-            <form id="contact-form">
-                <div class="input-box">
-                    <input type="text" name="first_name" placeholder="First Name" required>
-                    <input type="text" name="last_name" placeholder="Last Name" required>
-                    <input type="email" name="email" placeholder="Email" required>
+                <div class="education-text">
+                    <h3>Bachelor of Technology in Computer Science</h4>
+                    <h4>Vellore Institute of Technology, Amaravathi</h4>
+                    <p>July 2018 - June 2022</p>
                 </div>
-                <textarea name="message" placeholder="Your Message" required></textarea>
-                <input type="submit" value="Send Message" class="btn">
-            </form>
-        </section>
-    </main>
+                <div class="education-logo">
+                    <img src="vit.png">
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <footer class="footer">
-        <p>Made by Ratna Rajiv Mulpuri with LOVE </p>
-        <a href="#home"><i class="fa-solid fa-arrow-up"></i></a>
-    </footer>
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form id="contact-form">
+            <div class="input-box">
+                <input type="text" name="first_name" placeholder="First Name" required>
+                <input type="text" name="last_name" placeholder="Last Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+            </div>
+
+            <div class="input-box">
+                <input type="number" name="mobile_number" placeholder="Mobile Number" required>
+                <input type="text" name="email_subject" placeholder="Email Subject" required>
+            </div>
+            <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Made by Ratna Rajiv Mulpuri | All Rights Reserved. </p>
+            </div>
+            <div class="footer-iconTop">
+                <a href="#home"><i class="fa-solid fa-arrow-up fa-bounce"></i></a>
+            </div>
+        </footer>
+    </section>
 
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
